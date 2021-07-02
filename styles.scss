@@ -1,0 +1,19 @@
+/*SETTINGS*/
+@import 'styles/settings/colors.settings';
+@import 'styles/settings/bootstrap.settings';
+
+/*TOOLS*/
+
+/*GENERIC*/
+@import 'node_modules/bootstrap/scss/bootstrap-grid.scss';
+
+/*ELEMENTS*/
+@import 'styles/elements/font-faces.elements';
+@import 'styles/elements/body.elements';
+
+/*OBJECTS*/
+
+/*BLOCKS*/
+@import 'styles/blocks/text.blocks';
+
+/*UTILITIES*/

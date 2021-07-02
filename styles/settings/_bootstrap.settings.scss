@@ -1,0 +1,36 @@
+$spacer: 1rem !default;
+$spacers: () !default;
+$spacers: map-merge(
+(
+        0: 0,
+        1: ($spacer * .25),
+        2: ($spacer * .5),
+        3: ($spacer * 1),
+        4: ($spacer * 1.25),
+        5: ($spacer * 1.5),
+        6: ($spacer * 2),
+        7: ($spacer * 3),
+        8: ($spacer * 4),
+        9: ($spacer * 5),
+        10: ($spacer * 8),
+        11: ($spacer * 10),
+        12: ($spacer * 12),
+        13: ($spacer * 14),
+),
+$spacers
+);
+
+$container-max-widths: (
+        sm: 540px,
+        md: 720px,
+        lg: 960px,
+        xl: 1260px
+) !default;
+
+$grid-breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 1024px,
+        xl: 1400px,
+);
